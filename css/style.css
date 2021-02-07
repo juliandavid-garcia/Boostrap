@@ -53,8 +53,11 @@ margin-bottom: 0;
 margin-bottom: 0;
 text-align:center;
 }
-page-header h2 {
+.page-header h2 {
     margin-top: 0;
+}
+.page-header .quotes{
+margin-bottom: 25px;
 }
 
 .features-container{
@@ -80,20 +83,20 @@ background-color:transparent;
     margin:25px 0;
 }
 /*block dividers*/
-.blockdivider{
+.block-divider{
 width:75px;
 height:5px;
 border:0;
 background-color:#444;
 }
-.block-divider-orange{
+.block-divider--orange{
     background-color:#f05f40;
 }
 .block-divider-short{
 widows: 35px;ß
 
 }
-.blockdivider--white{
+.block-divider--white{
 background-color: white;
 }
 /*Content container*/
@@ -104,7 +107,7 @@ background-color: white;
 /*buttoms*/
 .btn--cta{
 font-weight: bold;
-border-radius: 23px;
+border-radius: 23px;    
 width:160px;
 }
 .btn--red {
@@ -117,15 +120,13 @@ border-color:#f05f40;
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
-.btn--red:active:focus{
-color:white ;
+.btn--red:active:focus {
 background-color:#e05032;
 border-color:#f05f40;
+color:white
 }
-.feature{
-    text-align: center;
-    margin-bottom: 40px;
-}
+
+
 /*navbar*/
 .navalert-container{
 position: absolute;
@@ -150,4 +151,24 @@ z-index: 1;
 }
 .navbar .navbar-nav a{
     font-weight: bold;
+}
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width:100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#f05f40;
+   
 }
